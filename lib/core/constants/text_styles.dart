@@ -53,6 +53,7 @@ class AppTextStyles {
   static const input = TextStyle(
     fontSize: 16,
     color: AppColors.black,
+    fontWeight: FontWeight.w500,
   );
 
 }

@@ -84,6 +84,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
             onRefresh: _refresh,
             child: ListView.builder(
               controller: _scrollController,
+              physics: const AlwaysScrollableScrollPhysics(),
               itemCount: provider.users.length + (provider.hasMore ? 1 : 0),
               itemBuilder: (context, index) {
                 if (index < provider.users.length) {

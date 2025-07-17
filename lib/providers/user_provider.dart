@@ -26,7 +26,7 @@ class UserProvider extends ChangeNotifier {
     }
 
     final url =
-        Uri.parse('https://reqres.in/api/users?page=$_currentPage&per_page=6');
+        Uri.parse('https://reqres.in/api/users?page=$_currentPage&per_page=10');
 
     final response = await http.get(url);
 

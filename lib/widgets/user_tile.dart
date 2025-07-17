@@ -11,11 +11,15 @@ class UserTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: CircleAvatar(
-        backgroundImage: NetworkImage(user.avatar),
+      leading: SizedBox(
+        width: 49,
+        height: 49,
+        child: CircleAvatar(
+          backgroundImage: NetworkImage(user.avatar),
+        ),
       ),
       title: Text(user.fullName, style: AppTextStyles.input),
-      subtitle: Text(user.email),
+      subtitle: Text(user.email, style: TextStyle(fontSize: 10)),
       onTap: onTap,
     );
   }

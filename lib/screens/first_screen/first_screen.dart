@@ -70,7 +70,7 @@ class _FirstScreenState extends State<FirstScreen> {
               ),
               child: ClipOval(
                 child: Image.asset(
-                  "assets/images/avatar.png",
+                  "assets/images/photo.png",
                   fit: BoxFit.cover,
                   width: 116,
                   height: 116,
