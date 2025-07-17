@@ -50,7 +50,9 @@ class _ThirdScreenState extends State<ThirdScreen> {
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: AppBar(
+        
         leading: IconButton(
+          padding: const EdgeInsets.only(left: 20),
           icon: const Icon(
             Icons.arrow_back_ios_new,
             size: 24,

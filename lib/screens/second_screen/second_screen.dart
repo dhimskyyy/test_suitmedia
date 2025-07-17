@@ -42,7 +42,7 @@ class _SecondScreenState extends State<SecondScreen> {
           style: AppTextStyles.headerScreen,
         ),
         leading: Padding(
-          padding: const EdgeInsets.only(left: 8),
+          padding: const EdgeInsets.only(left: 20),
           child: IconButton(
             icon: const Icon(
               Icons.arrow_back_ios_new,
